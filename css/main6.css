@@ -1,0 +1,4762 @@
+@font-face{
+  font-family: Francois;
+  src: url("../FrancoisOne-Regular/FrancoisOne-Regular.ttf");
+}
+@font-face{
+  
+  font-family: Montserratbold;
+  src: url("../Montserratbold/Montserrat-Bold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratsemibold;
+  src: url("../Montserratsemibold/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratmedium;
+  src: url("../Montserratmedium/Montserrat-Medium.ttf");
+}
+@font-face{
+  
+  font-family: vuja;
+  src: url("../vuja/VujahdayScript-Regular.ttf");
+}
+/*-------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;background: linear-gradient(180deg, #171a19 0%, #1b2321 100%);
+  }
+  .v1_2 {
+    /*div mayor*/
+    width: 1440px;    height: 4367px;
+    position: relative;   top: 0px;   left: 0px;
+    overflow: hidden; background-color: #ffffff;margin: 0 auto;}
+
+
+/*//////////////////////////////////////////////////*/
+  .v20_29 {
+    /*div grande 1*/
+    width: 1440px;
+    height: 1018px;
+    background: linear-gradient(180deg, #097A59 0%, #0B9A70 100%);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+
+  .v7_84_1{
+    width: 144px;
+    height: 144px;
+    background: url("../images/v7_9.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 103px;
+    overflow: hidden;
+  
+  }
+  
+  header {
+    
+    position: absolute; 
+    top: 47px; 
+    left: 317px; 
+    padding: 1em;
+    text-align: center;
+    line-height: 26.82px;
+    letter-spacing: 10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 120px;
+  }
+  
+  nav a {
+    color: #ffffff; 
+  font-family: Montserratsemibold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32.91px;
+  }
+  
+  nav a:hover {
+    color:#095237;
+    ; 
+  }
+
+  .recuam {
+    /*recuam*/
+    width: 1059px;
+    height: 183px;
+    background: rgba(9, 82, 55, 1);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    top: 441px;
+    left: 197px;
+  }
+  .recuv{
+    width: 633px;
+    height: 226px;
+    background: rgba(249, 180, 25, 1);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    top: 419px;
+    left: 178px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+  }
+  .defe{
+    width: 745px;
+    height: 190px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 474px;
+    left: 345px;
+    overflow: hidden;
+    font-family: Montserratbold;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97.52px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  /*//////////////////////////////////////////////////*/
+  .v20_9 {
+    /*div grande2*/
+    width: 1440px;
+  height: 2988px;
+  background-image: url("../images/FMC1.jpg");
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 1020px;
+  border: 0px solid rgba(0,0,0,1);
+  overflow: hidden;
+  filter: brightness(0.5);
+  }
+    .defeiz{
+      width: 788px;
+      height: 99px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      top: 1229px;
+      left: 333px;
+      overflow: hidden;
+      font-family: Montserratbold;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 97.52px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    .dl{
+      width: 660px;
+      height: 44px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      top: 1347px;
+      left: 373px;
+      overflow: hidden;
+      font-family: Montserratmedium;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21.94px;
+      letter-spacing: 0%;
+      text-align: center;
+      
+      
+    }
+    .da{
+      width: 1196px;
+    height: 280px;
+    background: rgba(9, 122, 89, 1);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    top: 1142px;
+    left: 122px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    }
+
+    .d1{
+      width: 1195px;
+    height: 2750px;
+    background: linear-gradient(180deg, #CECECE 0%, #FFFFFF 100%);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    top: 1143px;
+    left: 122px;
+   border-radius: 75px;
+    }
+
+
+
+  /*//////////////////////////////////////////////////*/
+ 
+  
+  
+
+  /*//////////////////////////////////////////////////*/
+
+  .v7_82 {
+    /*caja grande 6*/
+    width: 1440px;
+    height: 368px;
+    background: rgba(9,82,55,1);
+    opacity: 1;
+    position: absolute;
+    top: 3999px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v7_100 {
+    /*caja grande 6letra corre*/
+    width: 259px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4169px;
+    left: 124px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  
+  }
+  .v7_101 {
+    /*ciudad*/
+    width: 204px;
+    height: 23px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4234px;
+    left: 124px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  }
+  .v7_102 {
+    /*numero*/
+    width: 204px;
+    height: 24px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4275px;
+    left: 124px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  }
+  .v7_86 {
+    /*encuntranos*/
+    width: 204px;
+    height: 23px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4099px;
+    left: 970px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 21.24px;
+    letter-spacing: 0%;
+  }
+  .v7_92 {
+    /*historia*/
+    width: 89px;
+    height: 23px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4127px;
+    left: 484px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  }
+  .v7_93 {
+    /*terminis y cond*/
+    width: 276px;
+    height: 23px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4175px;
+    left: 486px;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  }
+  .v7_94 {
+    /*politica de privacidad*/
+    width: 255px;
+    height: 25px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4222px;
+    left: 484px;
+    font-family: Montserrat;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    line-height: 26.82px;
+    letter-spacing: 0%;
+  }
+  .v7_88 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icongx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4146px;
+    left: 971px;
+  }
+  .v7_89 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/iconfb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top:  4146px;
+    left: 1030px;
+  }
+  .v7_90 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/iconwha.png");
+    
+    opacity: 1;
+    position: absolute;
+    top:  4146px;
+    left: 1090px;
+  }
+  
+  .v7_84 {
+    /*caja grande 6iconotata*/
+    width: 137px;
+    height: 135px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3999px;
+    left: 165px;
+    overflow: hidden;
+  }
+
+  .v7_84line{
+    width: 731px;
+    height: 13px;
+    background: rgba(249, 180, 25, 1);
+    opacity: 1;
+    position: absolute;
+    top: 3997px;
+    overflow: hidden;
+  }
+  .v7_84line2{
+    width: 710px;
+    height: 13px;
+    background: rgba(22, 188, 140, 1);
+  
+  
+    opacity: 1;
+    position: absolute;
+    top: 3997px;
+    left: 731px;
+    overflow: hidden;
+  }
+
+
+
+  .v7_84linewhite{
+    width: 241px;
+  
+    opacity: 1;
+    position: absolute;
+    top: 4216px;
+    left: 124px;
+    overflow: hidden;
+    border-width: 2px;
+    border: 2px solid rgba(255, 255, 255, 1)
+  
+  }
+  .v7_84linewhite2{
+    width: 1193px;
+    opacity: 1;
+    position: absolute;
+    top: 4311px;
+    left: 124px;
+    overflow: hidden;
+    border-width: 2px;
+    border: 2px solid rgba(255, 255, 255, 1)
+  }
+  .v7_84linewhitelet{
+    width: 585px;
+    height: 25px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 4339px;
+    left: 442px;
+    overflow: hidden;
+    font-family: Montserratmedium;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+  }
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+  .r1{
+      width:  994px;
+      height: 27px;
+      top:     1506px;
+      left: 243px;
+      
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36.57px;
+      color: rgba(9, 122, 89, 1);
+
+      opacity: 1;
+      position: absolute;
+      overflow: hidden;
+      font-family: Montserratmedium;
+      letter-spacing: 0%;
+      text-align: left;     
+  }
+
+  
+  .r2{
+    width:   994px;
+    height: 27px;
+    top:      1577px;
+    left: 243px;
+    
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: rgba(9, 122, 89, 1);
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    font-family: Montserratmedium;
+    letter-spacing: 0%;
+    text-align: left;     
+}
+
+
+.r3{
+  width:   994px;
+  height: 27px;
+  top:      1648px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r4{
+  width:   994px;
+  height: 27px;
+  top:      1719px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r5{
+  width:   994px;
+  height: 27px;
+  top:      1790px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r6{
+  width:  994px;
+  height: 27px;
+  top:      1861px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;    
+}
+
+
+.r7{
+  width:   994px;
+  height: 27px;
+  top:      1932px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r8{
+  width:   994px;
+  height: 27px;
+  top:      2003px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r9{
+  width:   994px;
+  height: 27px;
+  top:      2074px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r10{
+  width:   994px;
+  height: 27px;
+  top:      2145px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r11{
+  width:   994px;
+  height: 27px;
+  top:      2216px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r12{
+  width:   994px;
+  height: 27px;
+  top:      2287px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+
+.r13{
+  width:   994px;
+  height: 27px;
+  top:      2358px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r14{
+  width:   994px;
+  height: 27px;
+  top:     2431px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;    
+}
+
+
+.r15{
+  width:   994px;
+  height: 27px;
+  top:      2500px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r16{
+  width:   994px;
+  height: 27px;
+  top:      2569px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r17{
+  width:   994px;
+  height: 27px;
+  top:      2638px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r18{
+  width:   994px;
+  height: 27px;
+  top:      2707px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;      
+}
+
+
+.r19{
+  width:   994px;
+  height: 27px;
+  top:      2776px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+.r20{
+  width:   792px;
+  height: 77px;
+  top:      2845px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+}
+
+
+.r21{
+  width:   994px;
+  height: 47px;
+  top:      2914px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r22{
+  width:   994px;
+  height: 47px;
+  top:      2983px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r23{
+  width:   994px;
+  height: 47px;
+  top:      3052px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r24{
+  width:   994px;
+  height: 47px;
+  top:      3121px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r25{
+  width:   994px;
+  height: 47px;
+  top:      3190px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r26{
+  width:   994px;
+  height: 47px;
+  top:     3259px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r27{
+  width:   994px;
+  height: 47px;
+  top:      3328px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r28{
+  width:   994px;
+  height: 47px;
+  top:      3397px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r29{
+  width:   994px;
+  height: 47px;
+  top:      3466px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r30{
+  width:   994px;
+  height: 47px;
+  top:      3535px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r31{
+  width:   994px;
+  height: 47px;
+  top:      3604px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r32{
+  width:   994px;
+  height: 47px;
+  top:      3673px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+.r33{
+  width:   994px;
+  height: 47px;
+  top:      3742px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+
+.r33{
+  width:   994px;
+  height: 47px;
+  top:      3750px;
+  left: 243px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+
+
+
+.l1{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1552px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l2{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1623px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l3{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1694px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l4{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1765px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l5{ width: 994px;
+height: 6px;
+opacity: 1;
+position: absolute;
+background: rgba(201, 198, 198, 1);
+top: 1836px;
+left: 223px;
+overflow: hidden;
+border-width: 2px;
+border: 2px solid rgba(255, 255, 255, 1)}
+
+.l6{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1907px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l7{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 1978px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l8{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2049px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l9{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2120px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l10{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2191px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l11{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2259px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l12{width: 994px;
+height: 6px;
+opacity: 1;
+position: absolute;
+background: rgba(201, 198, 198, 1);
+top: 2262px;
+left: 223px;
+overflow: hidden;
+border-width: 2px;
+border: 2px solid rgba(255, 255, 255, 1)}
+
+.l13{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2333px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l14 {width: 994px;
+height: 6px;
+opacity: 1;
+position: absolute;
+background: rgba(201, 198, 198, 1);
+top: 2404px;
+left: 223px;
+overflow: hidden;
+border-width: 2px;
+border: 2px solid rgba(255, 255, 255, 1)}
+
+.l15{width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2475px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)}
+
+.l16{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2544px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l17{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2613px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l18{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2682px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l19{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2751px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l20{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2820px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l21{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2820px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l22{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2889px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l23{
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  top: 2958px;
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.l24{
+  top: 3027px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l25{
+  top: 3096px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l26{ 
+  top: 3165px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l27{
+  top: 3234px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l28{
+  top: 3303px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l29{
+  top: 3372px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l30{
+  top: 3441px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l31{
+  top: 3510px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l32{
+  top: 3579px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+.l33{
+  top: 3648px;
+  width: 994px;
+  height: 6px;
+  opacity: 1;
+  position: absolute;
+  background: rgba(201, 198, 198, 1);
+  
+  left: 223px;
+  overflow: hidden;
+  border-width: 2px;
+  border: 2px solid rgba(255, 255, 255, 1)
+}
+
+
+/*sssssssssssssss*/
+.rr1{
+  width:  41px;
+  height: 37.38px;
+  top:     1506px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.r2f{
+  width:  41px;
+  height: 37.38px;
+  top:     1577.74px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r3f{
+  width:  41px;
+  height: 37.38px;
+  top:      1649.47px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r4f{
+  width:  41px;
+  height: 37.38px;
+  top:1721.21px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.r5f{
+  width:  41px;
+  height: 37.38px;
+  top:     
+  
+1791.93px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w1f{
+  width:  41px;
+  height: 37.38px;
+  top: 1791.93px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+
+
+.r6f{
+  width:  41px;
+  height: 37.38px;
+  top:    1864.68px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.r7f{
+  width:  41px;
+  height: 37.38px;
+  top:     
+  1936.42px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.r8f{
+  width:  41px;
+  height: 37.38px;
+  top:     2008.15px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;     
+}
+
+
+.r9f{
+  width:  41px;
+  height: 37.38px;
+  top:     
+  2079.89px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;      
+}
+
+
+.r10f{
+  width:  41px;
+  height: 37.38px;
+  top:    2149.61px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;      
+}
+
+
+.r11f{
+  width:  41px;
+  height: 37.38px;
+  top:     2221.34px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r12f{
+  width:  41px;
+  height: 37.38px;
+  top:     
+  2292px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+
+.r13f{
+  width:  41px;
+  height: 37.38px;
+  top:    
+  2363px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
+
+
+.r14f{
+  width:  41px;
+  height: 37.38px;
+  top:    
+  2433.55px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+.r15f{
+  width:  41px;
+  height: 37.38px;
+  top:     2503px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r16f{
+  width:  41px;
+  height: 37.38px;
+  top:     2573px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r17f{
+  width:  41px;
+  height: 37.38px;
+  top:     2640px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;      
+}
+
+
+.r18f{
+  width:  41px;
+  height: 37.38px;
+  top:     2709px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;      
+}
+
+
+.r19f{
+  width:  41px;
+  height: 37.38px;
+  top:     2778px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+
+.r20f{
+  width:  41px;
+  height: 37.38px;
+  top:     2847px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.r21f{
+  width:  41px;
+  height: 37.38px;
+  top:     2916px;
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+
+
+.r22f{
+  top:     2985px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.r23f{
+  top:     3054px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r24f{
+  top:     3123px;
+  width:  41px;
+  height: 37.38px;
+ 
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r25f{
+  top:     3192px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r26f{
+  top:     3261px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r27f{
+  top:     3330px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r28f{
+  top:     3399px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r29f{
+  top:     3468px;
+  width:  41px;
+  height: 37.38px;
+ 
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r30f{
+  top:     3537px;
+  width:  41px;
+  height: 37.38px;
+ 
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r31f{
+  top:     3606px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r32f{
+  top:     3675px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.r33f{
+  top:     3744px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.r34f{
+  top:     3813px;
+  width:  41px;
+  height: 37.38px;
+  
+  left: 1176px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdeface.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+
+/**/
+.w2f{
+  width:  41px;
+  height: 37.38px;
+  top: 1720px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.w3f{
+  width:  41px;
+  height: 37.38px;
+  top:   2569px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w4f{
+  width:  41px;
+  height: 37.38px;
+  top: 2776px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w5f{
+  width:  41px;
+  height: 37.38px;
+  top: 2845px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w6f{
+  width:  41px;
+  height: 37.38px;
+  top: 2983px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w7f{
+  width:  41px;
+  height: 37.38px;
+  top: 3052px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w8f{
+  width:  41px;
+  height: 37.38px;
+  top: 3121px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w9f{
+  width:  41px;
+  height: 37.38px;
+  top: 3259px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w10f{
+  width:  41px;
+  height: 37.38px;
+  top: 3328px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w11f{
+  width:  41px;
+  height: 37.38px;
+  top: 
+  3397px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w12f{
+  width:  41px;
+  height: 37.38px;
+  top: 
+  3535px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w13f{
+  width:  41px;
+  height: 37.38px;
+  top: 3673px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.w14f{
+  width:  41px;
+  height: 37.38px;
+  top: 3742px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.w15f{
+  width:  41px;
+  height: 37.38px;
+  top: 2362px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.w16f{
+  width:  41px;
+  height: 37.38px;
+  top: 2293px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.w17f{
+  width:  41px;
+  height: 37.38px;
+  top: 2224px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.w18f{
+  width:  41px;
+  height: 37.38px;
+  top: 2155px;
+  left: 1126px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(9, 122, 89, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  font-family: Montserratmedium;
+  letter-spacing: 0%;
+  text-align: left;     
+    background: url("../images/logoverdewhats.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+.v7_82bb {
+  /*caja grande 6*/
+  width: 224px;
+  height: 46px;
+  background: rgba(254, 254, 254, 1);
+
+  opacity: 1;
+  position: absolute;
+  top: 3923px;
+  left: 605px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+  color: rgba(9, 82, 55, 1);
+
+  font-family: Montserratsemibold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+.v7_82bb:hover {
+  background: rgba(22, 188, 140, 1);
+
+}
+
+.v7_100bb {
+  /*caja grande 6letra corre*/
+  width: 220px;
+  color: rgba(9, 82, 55, 1);
+
+  position: absolute;
+  top: 3930px;
+  left: 607px;
+  font-family: Montserratmedium;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  line-height: 24.38px;
+  letter-spacing: 0%;
+
+}
+.divflecha{
+ 
+  width: 56px;
+  height: 59px;
+  background: url("../images/Group1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3899px;
+  left: 1238px;
+  overflow: hidden;
+}
+
+.v1_responsivo{
+  position: absolute;
+  left: -3000px;
+  top:-999px;
+    }
+  
+    @media (max-width: 768px) {
+      * {
+        box-sizing: border-box ;
+      }
+    
+      body {
+        font-size: 14px ;
+        background: linear-gradient(180deg, #171a19 0%, #1b2321 100%);
+      }
+    
+    
+      .v1_responsivo{
+        width: 360px;
+        height: 2340px;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 1);
+  
+        
+  
+      }
+      .v1_2{
+        width: 0px;    height: 0px;
+        position: relative;   top: 0px;   left: 250px;
+        overflow: hidden;  background-color: rgba(0,0,0,1);
+      }
+      .v1_494 {
+        width: 179px;height: 1px;opacity: 1;position: absolute;
+        top:2081px;left: 87px;overflow: hidden;border-radius: 1px;border: 3px solid rgba(255, 255, 255, 1)
+  
+      }
+        .v1_495 {
+        width: 322px;height: 1px;opacity: 1;position: absolute;
+        top: 2271px;left: 17px;overflow: hidden;border-radius: 1px;border: 3px solid rgba(255, 255, 255, 1) 
+      }
+      .nav{
+        background-color:black;
+    
+      }
+      
+     .nav_container{
+      background: linear-gradient(180deg, #097A59 100%, #0B9A70 0%);
+
+      width: 360px;
+      height: 73px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      --icon-toggle-menu: url("../images/close.png");
+      --transform-menu-show: translate(-100%);
+    
+     }
+    
+    .nav_container:has(.nav_input:checked){
+      --icon-toggle-menu: url("../images/menu.png");
+      --transform-menu-show: traslate(0);
+       
+        
+    }
+    .nav_input{
+      width: 40px;
+      height: 40px;
+      opacity: 0;
+    }
+    
+    
+    .nav_list{
+      position: absolute;
+      background-color:rgba(9, 122, 89, 1);
+    display: grid;
+      inset:0;
+      padding: 1.5rem 7%;
+     
+      place-content: center;
+      gap: 2rem;
+    
+    
+      list-style : none ;
+      width: 173px;
+      height: 334px;
+      top: 9px;
+      left: 359px;
+      z-index: 9996;
+      transform: var(--transform-menu-show);
+      transition: .1s transform;
+      font-family: Montserratsemibold;
+      
+    }
+    
+    .nav_figure,   .nav_toggle{
+      z-index: 10;
+    }
+    
+    .nav_toggle{
+      margin-top: 30px;
+      width: 32px;
+      height: 32px;
+      background-image: var(--icon-toggle-menu);
+      background-size: cover;
+      cursor: pointer;
+      right: 10px;
+      position: absolute;
+      transition: background-image .5s;
+      z-index: 9999;
+    }
+  
+    .nav_link{
+      color: white;
+      text-decoration: none;
+    } 
+    .v7_93d {
+      width: 132px;
+      height: 33px;
+      background: url("../images/v7_93.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 2213px;
+      left: 95px;
+      overflow: hidden;
+      z-index: 999;
+    }
+    .v7_94d {
+      width: 33px;
+      height: 33px;
+      background-image: url("../images/icongx.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v7_95d {
+      width: 33px;
+      height: 33px;
+      background-image: url("../images/iconfb.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 50px;
+      overflow: hidden;
+    }
+    .v7_96d {
+      width: 33px;
+      height: 33px;
+      background-image: url("../images/iconwha.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      overflow: hidden;
+    }
+    /*++++++++++++++++++++++++++++++*/
+
+    .v15_211 {
+      width: 360px;
+      height: 634px;
+      background: linear-gradient(rgba(9,122,89,1), rgba(11,154,112,1));
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v15_212 {
+      width: 32px;
+      height: 32px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 17px;
+      left: 315px;
+      overflow: hidden;
+    }
+    .v15_213 {
+      width: 24px;
+      height: 18px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 7px;
+      left: 4px;
+    }
+    .v15_214 {
+      width: 158px;
+      height: 128px;
+      background: rgba(249,180,25,1);
+      opacity: 1;
+      position: absolute;
+      top: 253px;
+      left: 22px;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 13px;
+      overflow: hidden;
+    }
+    .v15_215 {
+      width: 316px;
+      height: 106px;
+      background: rgba(9,82,55,1);
+      opacity: 1;
+      position: absolute;
+      top: 264px;
+      left: 27px;
+      overflow: hidden;
+    }
+    .v15_216 {
+      width: 320px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 300px;
+      left: 20px;
+      font-family: Montserrat;
+      font-weight: Bold;
+      font-size: 28px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_217 {
+      width: 628px;
+      height: 100%;
+      background: url("../images/v15_217.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 634px;
+      left: 142px;
+      overflow: hidden;
+    }
+    .v15_218 {
+      width: 360px;
+      height: 100%;
+      background: rgba(0,0,0,0.5899999737739563);
+      opacity: 1;
+      position: absolute;
+      top: 634px;
+      left: 0px;
+    }
+    .v15_219 {
+      width: 322px;
+      height: 904px;
+      background: linear-gradient(rgba(206,206,206,1), rgba(255,255,255,1));
+      opacity: 1;
+      position: absolute;
+      top: 789px;
+      left: 21px;
+      border: 0px solid linear-gradient(rgba(0,0,0,1), rgba(102,102,102,1));
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      overflow: hidden;
+    }
+    .v15_220 {
+      width: 322px;
+      height: 148px;
+      background: rgba(9,122,89,1);
+      opacity: 1;
+      position: absolute;
+      top: 683px;
+      left: 21px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      overflow: hidden;
+    }
+    .v15_221 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 847px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_222 {
+      width: 254px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 703px;
+      left: 53px;
+      font-family: Montserratsemibold;
+      font-weight: SemiBold;
+      font-size: 28px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_223 {
+      width: 232px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 873px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_224 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 903px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_225 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 927px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_226 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 953px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_227 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 980px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_228 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 999px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_229 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1021px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_230 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1044px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_231 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1068px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_232 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1088px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_233 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1108px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_234 {
+      width: 245px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1130px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_235 {
+      width: 232px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1151px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_236 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1186px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_237 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1212px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_238 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1236px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_239 {
+      width: 227px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1256px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_240 {
+      width: 236px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1286px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_241 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1319px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_242 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1343px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_243 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1367px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_244 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1391px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_245 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1415px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_246 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1439px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_247 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1462px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_248 {
+      width: 235px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1482px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_249 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1518px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_250 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1542px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_251 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1566px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_252 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1590px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_253 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1614px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_254 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1639px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_255 {
+      width: 341px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1663px;
+      left: 37px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 11px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_256 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 860px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_257 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 899px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_258 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 920px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_259 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 945px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_260 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 970px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_261 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 995px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_262 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1015px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_263 {
+      width: 305px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1037px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_264 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1061px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_265 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1082px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_266 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1103px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_267 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1122px;
+      left: 35px;
+      overflow: hidden;
+    }
+    .v15_268 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1145px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_269 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1178px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_270 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1202px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_271 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1227px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_272 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1251px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_273 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1282px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_274 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1311px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_275 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1335px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_276 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1359px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_277 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1383px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_278 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1407px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_279 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1431px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_280 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1454px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_281 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1474px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_282 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1508px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_283 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1532px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_284 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1557px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_285 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1581px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_286 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1605px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_287 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1629px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_288 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1653px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_289 {
+      width: 303px;
+      height: 3px;
+      background: rgba(201,198,198,1);
+      opacity: 1;
+      position: absolute;
+      top: 1677px;
+      left: 37px;
+      overflow: hidden;
+    }
+    .v15_290 {
+      width: 56px;
+      height: 57px;
+      background: url("../images/v15_290.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 27px;
+      overflow: hidden;
+    }
+    .v15_291 {
+      width: 182px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 20px;
+      left: 91px;
+      font-family: Montserratbold;
+      font-weight: Bold;
+      font-size: 10px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_292 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 848px;
+      left: 321px;
+       
+    }
+    .v15_293 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 908px;
+      left: 321px;
+      
+    }
+    .v15_294 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 933px;
+      left: 321px;
+      
+    }
+    .v15_295 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 958px;
+      left: 321px;
+      
+    }
+    .v15_296 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1091px;
+      left: 321px;
+     
+    }
+    .v15_297 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1110px;
+      left: 321px;
+      
+    }
+    .v15_298 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1133px;
+      left: 321px;
+      
+    }
+    .v15_299 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1215px;
+      left: 321px;
+      
+    }
+    .v15_300 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1323px;
+      left: 321px;
+      
+    }
+    .v15_301 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1371px;
+      left: 321px;
+      
+    }
+    .v15_302 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1395px;
+      left: 321px;
+      
+    }
+    .v15_303 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1419px;
+      left: 321px;
+     
+    }
+    .v15_304 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1462px;
+      left: 321px;
+      
+    }
+    .v15_305 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1496px;
+      left: 321px;
+      
+    }
+    .v15_306 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1520px;
+      left: 321px;
+      
+    }
+    .v15_307 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1569px;
+      left: 321px;
+      
+    }
+    .v15_308 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1617px;
+      left: 321px;
+      
+    }
+    .v15_309 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1665px;
+      left: 321px;
+      
+    }
+    .v15_310 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1641px;
+      left: 321px;
+      
+    }
+    .v15_311 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1593px;
+      left: 321px;
+     
+    }
+    .v15_312 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1545px;
+      left: 321px;
+      
+    }
+    .v15_313 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1442px;
+      left: 321px;
+      
+    }
+    .v15_314 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1299px;
+      left: 321px;
+      
+    }
+    .v15_315 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1347px;
+      left: 321px;
+      
+    }
+    .v15_316 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1239px;
+      left: 321px;
+      
+    }
+    .v15_317 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1270px;
+      left: 321px;
+      
+    }
+    .v15_318 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1166px;
+      left: 321px;
+      
+    }
+    .v15_319 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1190px;
+      left: 321px;
+      
+    }
+    .v15_320 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 983px;
+      left: 321px;
+      
+    }
+    .v15_321 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1003px;
+      left: 321px;
+      
+    }
+    .v15_322 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1025px;
+      left: 321px;
+      
+    }
+    .v15_323 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1049px;
+      left: 321px;
+      
+    }
+    .v15_324 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1070px;
+      left: 321px;
+     
+    }
+    .v15_325 {
+      width: 11px;
+      height: 11px;
+      background-image: url("../images/logoverdeface.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 887px;
+      left: 321px;
+      
+    }
+    .v15_326 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 848px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_330 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 908px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_334 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 933px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_338 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 958px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_342 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1091px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_346 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1110px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_350 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1133px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_354 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1215px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_358 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1323px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_362 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1371px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_366 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1395px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_370 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1419px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_374 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1462px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_378 {
+      width: 11px;
+      height: 180px;
+    
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1496px;
+      left: 306px;
+      overflow: hidden;
+    }
+    .v15_379e {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    
+    .v15_382 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 24px;
+      left: 0px;
+      overflow: hidden;
+    }
+    
+    .v15_385 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 73px;
+      left: 0px;
+      overflow: hidden;
+    }
+    
+    .v15_388 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 121px;
+      left: 0px;
+      overflow: hidden;
+    }
+    
+    .v15_391 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 169px;
+      left: 0px;
+      overflow: hidden;
+    }
+    
+    .v15_394 {
+      width: 11px;
+      height: 11px;
+      background: url("../images/logoverdewhats.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1299px;
+      left: 306px;
+      overflow: hidden;
+    }
+    
+    .v15_398 {
+      width: 234px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 779px;
+      left: 64px;
+      font-family: Montserrat;
+      font-weight: Medium;
+      font-size: 10px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_399 {
+      width: 184px;
+      height: 8px;
+      background: rgba(249,180,25,1);
+      opacity: 1;
+      position: absolute;
+      top: 1788px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v15_400 {
+      width: 176px;
+      height: 8px;
+      background: rgba(22,188,140,1);
+      opacity: 1;
+      position: absolute;
+      top: 1788px;
+      left: 184px;
+      overflow: hidden;
+    }
+    .v15_401 {
+      width: 154px;
+      height: 46px;
+      background: rgba(254,254,254,1);
+      opacity: 1;
+      position: absolute;
+      top: 1721px;
+      left: 105px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      overflow: hidden;
+
+      transition: background 0.3s ease;
+      color: rgba(9,122,89,1);
+      font-family: Montserratsemibold;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24.38px;
+      letter-spacing: 0%;
+      text-align: center;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    .v15_401:hover{
+      background: rgba(22, 188, 140, 1);
+    }
+
+
+    .v15_402 {
+      width: 90px;
+      color: rgba(9,122,89,1);
+      position: absolute;
+      top: 1731px;
+      left: 132px;
+      font-family: Montserratsemibold;
+      font-weight: SemiBold;
+      font-size: 18px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_403 {
+      width: 360px;
+      height: 544px;
+      background: rgba(9,82,55,1);
+      opacity: 1;
+      position: absolute;
+      top: 1796px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v15_404 {
+      width: 322px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2277px;
+      left: 14px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 10px;
+      opacity: 1;
+      text-align: center;
+    }
+    .name {
+      color: #fff;
+    }
+    .v15_406 {
+      width: 181px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 1908px;
+      left: 85px;
+      font-family: Montserratsemibold;
+      font-weight: SemiBold;
+      font-size: 12px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v15_407 {
+      width: 80px;
+      height: 82px;
+      background: url("../images/v15_407.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1826px;
+      left: 136px;
+      overflow: hidden;
+    }
+    .v15_408 {
+      width: 204px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2100px;
+      left: 85px;
+      font-family: Montserratsemibold;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_409 {
+      width: 274px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2123px;
+      left: 86px;
+      font-family: Montserratsemibold;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_410 {
+      width: 231px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2146px;
+      left: 85px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_411 {
+      width: 204px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 1983px;
+      left: 86px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_412 {
+      width: 204px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2009px;
+      left: 86px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_413 {
+      width: 204px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2034px;
+      left: 86px;
+      font-family: Montserratmedium;
+      font-weight: Medium;
+      font-size: 13px;
+      opacity: 1;
+      text-align: left;
+    }
+    .name {
+      color: #fff;
+    }
+    .v15_415 {
+      width: 164px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 2188px;
+      left: 98px;
+      font-family: Montserratsemibold;
+      font-weight: SemiBold;
+      font-size: 14px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v15_416 {
+      width: 132px;
+      height: 33px;
+      background: url("../images/v15_416.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 2213px;
+      left: 100px;
+      overflow: hidden;
+    }
+    .v15_417 {
+      width: 33px;
+      height: 33px;
+      background: url("../images/v15_417.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 99px;
+      overflow: hidden;
+    }
+    .v15_418 {
+      width: 33px;
+      height: 33px;
+      background: url("../images/v15_418.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v15_419 {
+      width: 33px;
+      height: 33px;
+      background: url("../images/v15_419.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v15_420 {
+      width: 33px;
+      height: 33px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    .v15_421 {
+      width: 35px;
+      height: 33px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 48px;
+    }
+    .v15_422 {
+      width: 33px;
+      height: 33px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  }
